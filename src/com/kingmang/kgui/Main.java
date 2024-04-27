@@ -1,17 +1,14 @@
-package com.kingmang.lazurite;
+package com.kingmang.kgui;
 
-import com.kingmang.lazurite.display.Window;
+import com.kingmang.kgui.display.Window;
+import com.kingmang.kgui.drawer.Ellipse;
 import processing.core.PApplet;
 
 public class Main {
-    public static String input;
+
     public static Window mySketch;
     public static void main(String[] args){
 
-        input = "drawEllipse(100,100,50,50)";
-
-
-        System.out.println(input);
         String[] processingArgs = {"Window"};
         mySketch = new Window(500,600);
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28823384-af9e-4bfd-ad6e-b249c0b8a655" name="Changes" comment="init" />
+    <list default="true" id="28823384-af9e-4bfd-ad6e-b249c0b8a655" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/com/kingmang/kgui/display/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kingmang/lazurite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kingmang/kgui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kingmang/lazurite/display/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kingmang/lazurite/drawer/CommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kingmang/kgui/drawer/CommandExecutor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,11 +43,11 @@
 }</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="CommandExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kingmang.lazurite.drawer.CommandExecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmang.kgui.drawer.CommandExecutor" />
       <module name="KGUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kingmang.lazurite.drawer.*" />
+          <option name="PATTERN" value="com.kingmang.kgui.drawer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,11 +56,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kingmang.lazurite.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.kingmang.kgui.Main" />
       <module name="KGUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kingmang.lazurite.*" />
+          <option name="PATTERN" value="com.kingmang.kgui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714160992456</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1714161584559</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714161584559</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
